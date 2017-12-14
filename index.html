@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+ <meta charset="UTF-8">
+ <title></title>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+ <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+ <!-- inicio splash-->
+ <section class="img-logo">
+  <img src="assets/img/preloader.gif" alt="" class="loading center-block">
+ </section>
+<!-- inicio login-->
+<div class="page-home">
+ <!--login -->
+  <section class="login">
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-xs-12">
+      <img src="assets/img/logo-white.png" alt="" class="logo-white center-block">
+     </div>
+    </div>
+   <div class="row">
+    <div class="col-sm-12 col-xs-12">
+     <img src="assets/img/lyft-logo.png" alt="" class="center-block logo-pink">
+    </div>   
+   </div>
+   <div class="row">
+    <div class="col-xs-6 col-sm-6 text-right">
+     <button type="button" class="btn btn-default btn-login">Log In</button>   
+    </div>
+    <div class="col-xs-6 col-sm-6 text-left">
+     <button type="button" class="btn btn-default  btn-login" id="sing-up">Sing Up</button>
+    </div>
+   </div>  
+   </div>
+  </section>
+ <!-- sing up-->
+  <section class="sing-up">
+   <div class="container-fluid">
+   <div class="row">
+    <div class="col-sm-12 col-xs-12">
+     <button type="button" class="btn btn-default btn-back" id="btn-back">
+      <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+     </button>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-xs-12 col-sm-12 text-center">
+     <h3>Sing Up</h3>
+     <p class="page-header">Join now for free ride credit</p>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-xs-12 col-sm-12">
+        <div class="input-group">
+          <div class="input-group-btn">
+            <button type="button" class="btn btn-default dropdown-toggle flag" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             <img src="assets/img/chile_flags_flag_16984.png" alt="" >
+            </button>
+            <ul class="dropdown-menu">
+              <li><a href="#"><img src="assets/img/canada_flags_flag_16983.png" alt=""></a></li>
+              <li><a href="#"><img src="assets/img/japan_flags_flag_17019.png" alt=""></a></li>
+              <li><a href="#"><img src="assets/img/mexico_flags_flag_17036.png" alt=""></a></li>
+              <li><a href="#"><img src="assets/img/puerto_rico_flags_flag_17055.png" alt=""></a></li>
+            </ul>
+          </div>
+          <input type="text" class="form-control input-number numeric " aria-label="..." maxlength="10">
+        </div>
+      </div>
+   <div class="row">
+    <div class="col-xs-12 col-sm-12">
+     <p class="text-center">We'll send a text to verify your phone</p>
+    </div>
+   </div> 
+   <div class="row">
+    <div class="col-xs-12 col-sm-12">
+     <button type="button" class="btn btn-default btn-next disabled" >NEXT</button>
+    </div>
+   </div>
+   </div>  
+  </section>
+ <!-- verificar-->
+  <section class="verify"> 
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-sm-12 col-xs-12">
+      <button type="button" class="btn btn-default btn-back" id="btn-back2">
+       <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+      </button>
+     </div>
+    </div>
+    <div class="row">
+     <div class="col-xs-12 col-sm-12 text-center">
+      <h3>Verify phone number</h3>
+      <p class="page-header">Join now for free ride credit</p>
+     </div>
+    </div>
+    <div class="row">
+     <div class="col-xs-3 col-sm-3 text-center">
+        <span class="input-group-addon lab" id="sizing-addon2">LAB</span>
+      </div>
+      <div class="col-xs-3 col-sm-3 no-margin">
+       <div class="input-group">
+        <input type="text" class="form-control code code1 numeric" maxlength="1">
+      </div>
+      </div>
+      <div class="col-xs-3 col-sm-3 no-margin">
+       <div class="input-group">
+        <input type="text" class="form-control code code2 numeric" maxlength="1">
+      </div>
+      </div>
+      <div class="col-xs-3 col-sm-3 no-margin">
+       <div class="input-group">
+        <input type="text" class="form-control code code3 numeric" maxlength="1">
+      </div>
+      </div>
+     </div>
+    <div class="row">
+     <div class="col-xs-12 col-sm-12 text-center">
+      <p class="text-final">Enter the code send to +56</p>
+     </div>
+    </div>
+    <div class="row">
+     <div class="col-xs-12 col-sm-12 text-center">
+      <button type="button" class="btn btn-default resend-code">Resend code</button>
+     </div>
+    </div>
+    <div class="row">
+     <div class="col-xs-12 col-sm-12 text-center">
+      <button type="button" class="btn btn-default btn-next2 ">NEXT</button>
+     </div>
+    </div>
+    </div> 
+  </section>
+ <!-- register-->
+  <section class="register">
+   <div class="container-fluid">
+   <div class="row">
+    <div class="col-sm-12 col-xs-12">
+     <button type="button" class="btn btn-default btn-back" id="btn-back3">
+      <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+     </button>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-xs-12 col-sm-12 text-center">
+     <h3>Sing Up</h3>
+     <p class="page-header">Join now for free ride credit</p>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-sm-12 col-xs-12">
+     <div class="input-group">
+        <span class="input-group-addon glyphicon glyphicon-user" id="sizing-addon2"></span>
+        <input type="text" class="form-control input-name" placeholder="Username" aria-describedby="sizing-addon2">
+      </div>
+    </div>
+   </div>  
+   <div class="row">
+    <div class="col-sm-12 col-xs-12">
+      <div class="input-group">
+        <span class="input-group-addon glyphicon glyphicon-envelope" id="sizing-addon2"></span>
+        <input type="text" class="form-control input-email" placeholder="email" aria-describedby="sizing-addon2">
+      </div>
+    </div>
+   </div> 
+   <div class="row">
+    <div class="col-sm-12 col-xs-12">
+     <input type="checkbox" class="check"><p class="check-p"> I agree to lyft'ss <a href="#">Terms of services</a></p>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-sm-12 col-xs-12">
+     <button type="button" class="btn btn-default btn-next3 disabled">NEXT</button>
+    </div>
+   </div>
+   </div>
+  </section>
+  <!--usuario registrado-->
+  <section class="register-finish">
+   <div class="container-fluid">
+    <div class="row">
+    <div class="col-sm-12 col-xs-12">
+     <button type="button" class="btn btn-default btn-back" id="btn-inicio">
+      <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+     </button>
+    </div>
+   </div>
+   </div>
+   <img src="assets/img/check.gif" alt="" class="loading2 center-block">
+  </section>
+</div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://use.fontawesome.com/7e3056ac5b.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="assets/js/app.js"></script>
+
+</body>
+</html>
